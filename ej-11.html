@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ejercicio 11 · Resolución paso a paso · Clase N°1 M1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,800&display=swap" rel="stylesheet">
+<style>
+:root{--azul:#17239B;--lav:#C3B9F4;--lav2:#efecfd;--tx:#1d2230;--mut:#5b6075;--ok:#0f7b4a;--okbg:#e5f6ee}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Nunito Sans',system-ui,sans-serif;color:var(--tx);background:#f7f7fb;font-size:17px;line-height:1.55}
+header{background:#fff;border-bottom:4px solid var(--azul);padding:10px 16px;display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:5}
+header img{height:38px}
+header .t{font-size:.82em;color:var(--mut);line-height:1.2}
+header .t b{color:var(--azul);display:block;font-size:1.08em}
+main{max-width:760px;margin:0 auto;padding:16px 14px 60px}
+h1{color:var(--azul);font-size:1.45em;margin:.3em 0}
+.intro{color:var(--mut)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:10px;margin-top:16px}
+.ib{background:#fff;border:1.5px solid var(--lav);border-radius:12px;padding:10px;text-decoration:none;color:var(--tx);display:flex;flex-direction:column;align-items:flex-start}
+.ib b{font-size:1.4em;color:var(--azul)} .ib small{color:var(--mut);font-size:.72em;line-height:1.2}
+.ib:hover{border-color:var(--azul);box-shadow:0 2px 8px rgba(23,35,155,.15)}
+.back{display:inline-block;color:var(--azul);text-decoration:none;font-weight:600;margin-bottom:8px}
+.exhead{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:6px 0 12px}
+.exnum{font-size:1.6em;font-weight:800;color:var(--azul)}
+.chip{background:var(--lav2);color:var(--azul);border-radius:20px;padding:3px 12px;font-size:.8em;font-weight:600}
+.card{background:#fff;border-radius:14px;padding:14px 16px;margin:12px 0;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.card h3{margin:0 0 8px;font-size:1.02em;color:var(--azul)}
+.obj{border-left:5px solid var(--azul)}
+.enun .q{margin:6px 0}
+.figwrap{overflow-x:auto;margin:8px 0}
+.opts{list-style:none;padding:0;margin:10px 0 0} .opts li{padding:3px 0}
+.try{background:var(--lav2);border-radius:14px;padding:14px 16px;text-align:center}
+.try p{margin:0 0 10px}
+.reveal{background:var(--azul);color:#fff;border:0;border-radius:10px;padding:12px 20px;font:inherit;font-weight:700;cursor:pointer}
+.reveal:hover{filter:brightness(1.15)}
+.stepl{list-style:none;padding:0;margin:0}
+.step{display:flex;gap:12px;padding:10px 0;border-bottom:1px dashed #ddd} .step:last-child{border-bottom:0}
+.sn{flex:0 0 30px;height:30px;border-radius:50%;background:var(--azul);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
+.sb{flex:1;min-width:0} .sb h4{margin:2px 0 4px;font-size:1em}
+.sb ul{margin:4px 0;padding-left:20px}
+.answer{background:var(--okbg);color:var(--ok);border:2px solid var(--ok);border-radius:14px;padding:12px 16px;font-size:1.05em;margin:12px 0}
+.why ul{padding-left:4px;list-style:none;margin:0} .why li{padding:5px 0}
+.tip{background:#fff8e6;border-left:5px solid #f0b429}
+.tip h3{color:#8a5a00}
+.navrow{display:flex;justify-content:space-between;margin-top:18px}
+.nav{color:var(--azul);font-weight:700;text-decoration:none;background:#fff;border:1.5px solid var(--lav);border-radius:10px;padding:8px 14px}
+footer{text-align:center;color:var(--mut);font-size:.8em;padding:20px}
+
+.m{white-space:nowrap}
+table.tbl{border-collapse:collapse;margin:6px auto;font-size:.92em}
+table.tbl td{border:1px solid #333;padding:3px 8px}
+table.tbl tr.th td{background:#e9e6fb;font-weight:700;text-align:center}
+table.tbl td.r{text-align:right} table.tbl td.c, table.tbl.c td{text-align:center}
+table.puzzle,table.latin{border-collapse:collapse;margin:8px auto}
+table.puzzle td{width:30px;height:30px;text-align:center;font-weight:700;border:1px solid #222}
+table.puzzle td.lab,table.latin td.lab{border:none;font-size:.8em;color:#333}
+table.puzzle td.blk{background:#8a8a8a}
+table.puzzle td.op{font-size:.85em}
+table.latin td{width:30px;height:30px;text-align:center;font-weight:700;border:1.5px solid #222}
+.receipt{width:270px;margin:8px auto;border:1px solid #333;padding:10px 14px;font-family:'Courier New',monospace;font-size:.78em;line-height:1.35;background:#fff}
+.rc-h{text-align:left}.rc-sep{border-top:1px dashed #555;margin:5px 0}
+.rc-r{display:flex;justify-content:space-between}.rc-b{font-weight:700}
+.keys{display:inline-flex;gap:3px;flex-wrap:wrap;vertical-align:middle}
+.key{display:inline-block;min-width:20px;padding:1px 5px;border-radius:4px;font-weight:700;text-align:center;font-size:.85em;line-height:1.5}
+.kn{background:#1d2230;color:#fff}.ko{background:#7fa7d9;color:#1d2230}
+svg.fig{display:block;margin:6px auto;max-width:100%;height:auto}
+ul.steps{list-style:none;padding-left:8px}
+
+</style></head>
+<body>
+<header><img src="data:image/png;base64,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" alt="Preuniversitario Preuc·c"><div class="t"><b>Guía de ejercicios · Clase N°1</b>Matemáticas M1 · Números naturales y enteros I</div></header>
+<main>
+<section class="view" id="v-ej-11">
+  <a class="back" href="index.html">☰ Todos los ejercicios</a>
+  <div class="exhead"><span class="exnum">Ejercicio 11</span><span class="chip">Argumentar</span></div>
+  <div class="card obj"><h3>🎯 ¿Qué busca este ejercicio?</h3><p>Evaluar un procedimiento de factorización paso a paso para detectar en qué paso se cometió un error, aplicando la descomposición en factores primos y las potencias.</p></div>
+  <div class="card enun"><h3>📄 Enunciado</h3><div class='q'>Una persona realiza el siguiente procedimiento para factorizar la expresión &nbsp;<span class='m'>60 − 36</span>, cometiendo un error en <b>uno</b> de los pasos:
+<ul class="steps">
+<li><b>Paso 1:</b> Escribe la diferencia como una diferencia de productos, obteniendo <span class='m'>12 · 5 − 12 · 3</span></li>
+<li><b>Paso 2:</b> Descompone en factores primos cada término, obteniendo <span class='m'>2 · 2 · 3 · 5 − 2 · 3 · 3 · 3</span></li>
+<li><b>Paso 3:</b> Escribe como potencia los factores iguales, obteniendo <span class='m'>2² · 3 · 5 − 2 · 3³</span></li>
+<li><b>Paso 4:</b> Factoriza la diferencia, obteniendo <span class='m'>2 · 3 (2 · 5 − 3²)</span></li>
+</ul>
+¿En cuál paso cometió el error?</div><ol class='opts'><li><b>A)</b> <span>En el paso 1</span></li><li><b>B)</b> <span>En el paso 2</span></li><li><b>C)</b> <span>En el paso 3</span></li><li><b>D)</b> <span>En el paso 4</span></li></ol></div>
+  <div class="try">
+    <p>Antes de mirar la resolución, <b>inténtalo tú</b>: lee con calma, anota los datos y elige una alternativa.</p>
+    <button class="reveal" data-n="11">Ver la resolución paso a paso</button>
+  </div>
+  <div class="sol" id="sol-11" hidden>
+    <div class="card"><h3>🧠 Resolución paso a paso</h3><ol class="stepl"><li class='step'><div class='sn'>1</div><div class='sb'><h4>Revisa cada paso por separado</h4><div>En este tipo de pregunta no basta con ver el resultado final: hay que verificar si <b>cada paso</b> es correcto con respecto al anterior.</div></div></li><li class='step'><div class='sn'>2</div><div class='sb'><h4>Paso 1</h4><div><span class='m'>12 · 5 = 60</span> ✔ y <span class='m'>12 · 3 = 36</span> ✔. Correcto.</div></div></li><li class='step'><div class='sn'>3</div><div class='sb'><h4>Paso 2</h4><div><span class='m'>12 · 5 = 2 · 2 · 3 · 5</span> ✔ (porque 12 = 2 · 2 · 3).<br>Pero <span class='m'>12 · 3</span> debería ser <span class='m'>2 · 2 · 3 · 3</span>, y la persona escribió <span class='m'>2 · 3 · 3 · 3 = 54</span> ✘. <b>Aquí está el error.</b></div></div></li><li class='step'><div class='sn'>4</div><div class='sb'><h4>Paso 3 y 4</h4><div>A partir del paso 2 (aunque esté malo), el paso 3 está bien escrito: 2·2·3·5 = 2²·3·5 y 2·3·3·3 = 2·3³. El paso 4 también: sacando el factor común 2·3 queda 2·3(2·5 − 3²). Es decir, esos pasos son consistentes; el error se arrastra desde el paso 2.</div></div></li><li class='step'><div class='sn'>5</div><div class='sb'><h4>Comprobación numérica</h4><div>60 − 36 = 24, pero 2 · 3 (10 − 9) = 6. No da lo mismo, lo que confirma que hubo un error; y el único paso que no conserva el valor es el 2 (2·2·3·3 = 36, pero 2·3·3·3 = 54).</div></div></li></ol></div>
+    <div class="answer">Respuesta correcta: <b>B)</b> En el paso 2</div>
+    <div class="card why"><h3>🔍 ¿Por qué no las otras alternativas?</h3><ul><li><b>A)</b> Es correcto: 12 · 5 = 60 y 12 · 3 = 36.</li><li><b>C)</b> Es correcto respecto del paso 2: 2 · 2 = 2² y 3 · 3 · 3 = 3³. El error venía de antes.</li><li><b>D)</b> Es correcto respecto del paso 3: al sacar 2 · 3 de ambos términos queda 2 · 5 y 3².</li></ul></div>
+    <div class="card tip"><h3>👩‍🏫 Consejo del profe</h3><p>Un truco infalible: calcula el valor numérico de cada paso. El paso donde el valor cambia por primera vez es el que tiene el error.</p></div>
+  </div>
+  <div class="navrow"><a class='nav' href='ej-10.html'>← Ejercicio 10</a><a class='nav' href='ej-12.html'>Ejercicio 12 →</a></div>
+</section></main>
+<footer>Preuniversitario Preuc·c · Matemáticas M1</footer>
+<script>
+document.addEventListener('click',function(ev){var b=ev.target.closest('.reveal'); if(!b) return;
+var s=document.getElementById('sol-'+b.dataset.n); s.hidden=false; b.parentNode.hidden=true;
+s.scrollIntoView({behavior:'smooth',block:'start'});});
+</script>
+</body></html>
