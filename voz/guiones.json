@@ -3,20 +3,20 @@
   "Vamos con el ejercicio uno. Hay que calcular seis menos dos, por el paréntesis menos cinco menos tres por cuatro.",
   "Antes de partir, recuerda el orden de siempre: primero lo que está dentro del paréntesis, después multiplicaciones y divisiones, y al final sumas y restas.",
   "Entramos al paréntesis. Ahí hay una resta y una multiplicación, y gana la multiplicación: tres por cuatro es doce. Nos queda menos cinco menos doce.",
-  "Menos cinco menos doce. Piénsalo como deudas: debías cinco y ahora debes doce más. En total debes diecisiete, o sea, menos diecisiete.",
-  "Ojo, que aquí está la trampa. El número que multiplica al paréntesis es menos dos, con su signo. Menos dos por menos diecisiete: menos por menos es más. Nos da más treinta y cuatro.",
-  "Terminamos con la suma: seis más treinta y cuatro es cuarenta.",
+  "Menos cinco menos doce. Los dos números son negativos, así que sumamos sus valores absolutos, cinco más doce, que es diecisiete, y conservamos el signo negativo: menos diecisiete.",
+  "Atención en este paso. El número que multiplica al paréntesis es menos dos, con su signo. Menos dos por menos diecisiete: menos por menos es más. Nos da más treinta y cuatro.",
+  "Terminamos con la suma que queda: seis más treinta y cuatro es igual a cuarenta.",
   "Si lo compruebas en la calculadora, respetando los paréntesis, te da cuarenta.",
   "La respuesta es la A. Consejo: cuando un número está pegado a un paréntesis, ese número se lleva su signo."
  ],
  "2": [
   "Ejercicio dos. Una pastelería vende kuchenes y cobra despacho según la distancia. Nos piden cuánto pagaron en total los clientes.",
   "Primero ordenemos. Hay dos cobros distintos: los kuchenes, que pagan todos, y los despachos, que pagan solo quienes pidieron envío.",
-  "Contemos los kuchenes: tres, más dos, más cuatro, más cinco, más uno. Son quince kuchenes. Ojo, el cliente que retiró en el local también compró, así que se cuenta.",
+  "Contemos los kuchenes: tres, más dos, más cuatro, más cinco, más uno. Son quince kuchenes. Importante: el cliente que retiró en el local también compró, así que se cuenta.",
   "quince kuchenes a dos mil cuatrocientos pesos cada uno: quince por dos mil cuatrocientos es treinta y seis mil pesos.",
   "Ahora los despachos. dos coma cinco kilómetros: hasta tres, paga mil ochocientos. cuatro coma uno kilómetros: más de tres, paga dos mil quinientos. tres kilómetros exactos: hasta tres incluye el tres, paga mil ochocientos. Y cuatro coma ocho kilómetros: paga dos mil quinientos. El que retiró en el local no paga despacho.",
   "Sumamos los despachos: mil ochocientos más dos mil quinientos más mil ochocientos más dos mil quinientos. Son ocho mil seiscientos pesos.",
-  "Total: treinta y seis mil más ocho mil seiscientos es cuarenta y cuatro mil seiscientos pesos.",
+  "Para el total sumamos ambas partes: treinta y seis mil más ocho mil seiscientos, que da cuarenta y cuatro mil seiscientos pesos.",
   "La respuesta es la C. Fíjate siempre en palabras como hasta o más de: deciden si el borde se incluye o no."
  ],
  "3": [
@@ -26,15 +26,15 @@
   "Deshacemos el triple: si tres veces el antecesor da cuarenta y dos, el antecesor es cuarenta y dos dividido en tres, que es catorce.",
   "Si el antecesor es catorce, el número es el que viene después: quince.",
   "Comprobemos: el antecesor de quince es catorce, y el triple de catorce es cuarenta y dos. Perfecto.",
-  "La respuesta es la D. Y ojo: el catorce aparece en las alternativas para pillar al que no termina de leer la pregunta."
+  "La respuesta es la D. Fíjate que el catorce aparece entre las alternativas, pero es el antecesor, no el número que se pide."
  ],
  "4": [
   "Ejercicio cuatro. Una empresa fabrica mochilas en distintos modelos, colores y tamaños. ¿Cuántas mochilas diferentes fabrica?",
   "Para armar una mochila hay que tomar tres decisiones: el modelo, el color y el tamaño.",
   "Contemos las opciones. Modelos: siete. Colores: negro, gris, burdeo, azul marino, verde oliva y mostaza; son seis. Tamaños: cuatro.",
   "Como cada modelo puede ir con cualquier color y cualquier tamaño, las opciones se multiplican: siete por seis por cuatro.",
-  "siete por seis es cuarenta y dos, y cuarenta y dos por cuatro es ciento sesenta y ocho.",
-  "La empresa fabrica ciento sesenta y ocho mochilas diferentes.",
+  "Primero siete por seis, que es cuarenta y dos, y luego cuarenta y dos por cuatro, que es ciento sesenta y ocho.",
+  "Por lo tanto, la empresa fabrica ciento sesenta y ocho mochilas diferentes.",
   "La respuesta es la D. Recuerda: cuando eliges una cosa y otra y otra, se multiplica. Se suma solo cuando eliges una u otra."
  ],
  "5": [
@@ -83,7 +83,7 @@
   "Seguimos hacia afuera: cinco menos diez es menos cinco.",
   "Un nivel más: menos dos más menos cinco es menos siete.",
   "Y al final multiplicamos por tres: menos siete por tres es menos veintiuno.",
-  "La respuesta es la C. Trabaja como pelando una cebolla: de adentro hacia afuera, una capa a la vez."
+  "La respuesta es la C. Resuelve siempre desde el paréntesis más interno hacia afuera, un nivel a la vez, reescribiendo la expresión completa."
  ],
  "10": [
   "Ejercicio diez. Hay que calcular: el cuádruple de seis, disminuido en la suma entre cinco y tres.",
@@ -99,7 +99,7 @@
   "Paso dos: doce por cinco se escribe dos por dos por tres por cinco, y eso está bien. Pero doce por tres debería ser dos por dos por tres por tres, y la persona escribió dos por tres por tres por tres, que es cincuenta y cuatro. Aquí está el error.",
   "Los pasos tres y cuatro están bien escritos respecto de lo anterior: solo arrastran el error que venía del paso dos.",
   "Si calculas el valor de cada paso, el primero que cambia de valor es el paso dos. Ese es el error.",
-  "La respuesta es la B. Truco infalible: calcula el valor numérico de cada paso."
+  "La respuesta es la B. Para verificar un procedimiento, calcula el valor numérico de cada paso."
  ],
  "12": [
   "Ejercicio doce. Una tabla de cuatro por cuatro donde en cada fila y columna van los números del uno al cuatro sin repetirse. Hay que completarla y calcular una expresión.",
@@ -107,7 +107,7 @@
   "La columna A tiene uno, cuatro y dos. Falta el tres, así que A dos es tres.",
   "La fila cuatro tiene dos y cuatro, y le faltan el uno y el tres. Como en la columna B ya está el tres, B cuatro es uno y D cuatro es tres.",
   "En la fila dos ya está el tres en A dos. Cruzando columnas, C dos es uno, D dos es dos y B dos es cuatro.",
-  "Con eso la tabla queda completa.",
+  "Con eso la tabla queda completa, y cada fila y cada columna tiene los números del uno al cuatro.",
   "Ahora la expresión: D dos menos B dos por A dos, dividido en C dos menos D cuatro. Es dos menos cuatro por tres, o sea dos menos doce, que es menos diez. Y abajo, uno menos tres, que es menos dos. Menos diez dividido en menos dos es cinco positivo.",
   "La respuesta es la B. Empieza siempre por la fila o columna a la que le falta un solo número."
  ],
@@ -117,7 +117,7 @@
   "Equipo por equipo: Rangers, diez puntos. Unión Costanera, quince. Brisas del Mar, dieciocho. Sporting Cordillera, seis. Los Cerezos, dieciséis. Y Puerto Nuevo, diecisiete.",
   "Ordenamos de mayor a menor: dieciocho, diecisiete, dieciséis, quince, diez y seis.",
   "Clasifican Brisas del Mar, Puerto Nuevo y Los Cerezos.",
-  "La trampa: Unión Costanera es el que más ganó, pero no empató ningún partido, y los empates también suman. Por eso queda cuarto.",
+  "El error frecuente: Unión Costanera es el que más ganó, pero no empató ningún partido, y los empates también suman. Por eso queda cuarto.",
   "La respuesta es la B. Cuando una tabla tiene muchos datos, agrega una columna con lo que te piden. No decidas mirando una sola columna."
  ],
  "14": [
@@ -127,7 +127,7 @@
   "Alternativa B: cuatro, triple cero, triple cero, da cuatro millones. Y tres, cero, cero, cinco, cero da treinta mil cincuenta. Esta es la correcta.",
   "Alternativa C: cuatro, triple cero, cero, cero da solo cuatrocientos mil. Le faltan ceros.",
   "Alternativa D: el primer número sí da cuatro millones, pero el segundo queda tres mil cincuenta. Le falta un cero.",
-  "Solo la B escribe la operación correcta.",
+  "Por lo tanto, solo la alternativa B escribe la operación correcta.",
   "La respuesta es la B. Anota cómo va quedando el número en pantalla después de cada tecla, igual que la calculadora."
  ],
  "15": [
@@ -135,7 +135,7 @@
   "Calculemos el agua: diecisiete vacas por treinta y ocho litros son seiscientos cuarenta y seis litros al día. En dos días, mil doscientos noventa y dos litros.",
   "Dividimos por cincuenta litros cada bidón: da veinticinco, y sobran cuarenta y dos litros.",
   "Esos cuarenta y dos litros no se pueden dejar afuera. Como no se puede llevar un pedazo de bidón, hace falta uno más.",
-  "Se necesitan veintiséis bidones.",
+  "Por lo tanto, se necesitan como mínimo veintiséis bidones para los dos días.",
   "La respuesta es la C. En las divisiones con contexto, el resto nunca se ignora: pregúntate qué significa lo que sobra."
  ],
  "16": [
@@ -143,14 +143,14 @@
   "El cobro tiene dos partes: el fijo, de doce mil quinientos pesos, que incluye ochenta gigas, y lo variable, por los gigas que se pasan.",
   "Gigas adicionales: ciento doce menos ochenta, que son treinta y dos.",
   "Cobro extra: treinta y dos por ciento cincuenta, que es cuatro mil ochocientos pesos.",
-  "Total: doce mil quinientos más cuatro mil ochocientos, diecisiete mil trescientos pesos.",
+  "El total es el cargo fijo más el extra: doce mil quinientos más cuatro mil ochocientos, que da diecisiete mil trescientos pesos.",
   "La respuesta es la C. Las cuentas de luz, agua o celular funcionan casi siempre así: fijo más exceso por precio."
  ],
  "17": [
   "Ejercicio diecisiete. Un juego con un dado y cartas: el triángulo triplica el puntaje y el círculo resta cuatro. Hay que calcular el puntaje final.",
-  "Partimos con el dado: tres puntos.",
+  "Partimos con el número que salió en el dado, así que el puntaje inicial es tres puntos.",
   "Ahora las cartas, en orden. Triángulo: tres por tres, nueve. Círculo: nueve menos cuatro, cinco. Círculo: cinco menos cuatro, uno. Triángulo: uno por tres, tres. Círculo: tres menos cuatro, menos uno. Y triángulo: menos uno por tres, menos tres.",
-  "El puntaje final es menos tres.",
+  "Después de las seis cartas, el puntaje final del jugador es menos tres.",
   "La respuesta es la B. Cuando hay una secuencia de operaciones, el orden importa muchísimo."
  ],
  "18": [
@@ -180,7 +180,7 @@
   "Ejercicio veintiuno. Hay que elegir la expresión que representa un enunciado largo. Vamos por partes.",
   "La suma entre ocho y menos tres va en un paréntesis, y el doble de esa suma es dos por ese paréntesis. La diferencia entre seis y nueve es seis menos nueve, en ese orden. Su cuádruple es cuatro por ese paréntesis. Y disminuido en significa restar.",
   "Uniendo los bloques: dos por el paréntesis ocho más menos tres, menos cuatro por el paréntesis seis menos nueve.",
-  "Como dato extra, su valor es diez más doce, o sea veintidós.",
+  "Si calculamos su valor, queda diez menos menos doce, es decir, diez más doce, que es veintidós.",
   "La respuesta es la C. La diferencia entre a y b es siempre a menos b, en el orden en que se nombran."
  ],
  "22": [
@@ -195,7 +195,7 @@
   "Con el plan mensual, en cierta cantidad de meses se paga veintitrés mil quinientos por esa cantidad. Queremos que sea menos que doscientos cuarenta y nueve mil.",
   "Estimemos: doscientos cuarenta y nueve mil dividido en veintitrés mil quinientos da un poco más de diez y medio.",
   "Verificamos: diez meses son doscientos treinta y cinco mil, y conviene. once meses son doscientos cincuenta y ocho mil quinientos, y ya no conviene.",
-  "Como máximo, diez meses.",
+  "Por lo tanto, el plan mensual conviene como máximo durante diez meses.",
   "La respuesta es la A. Cuando te pregunten como máximo, revisa el número que obtuviste y el siguiente."
  ],
  "24": [
@@ -204,14 +204,14 @@
   "El primer número indica dónde partimos: el tres.",
   "Sumar un positivo es avanzar hacia la derecha. Avanzamos cinco unidades.",
   "Avanzamos cinco unidades desde el tres y llegamos al ocho, que es el resultado de la operación.",
-  "La respuesta es la A. Piénsalo con temperatura: si quitas cinco grados de frío, la temperatura sube."
+  "La respuesta es la A. Restar un número negativo equivale a sumar su opuesto, y en la recta numérica eso es desplazarse hacia la derecha."
  ],
  "25": [
   "Ejercicio veinticinco. Hay que encontrar la expresión que calcula la masa molar del ácido sulfúrico, H dos S O cuatro.",
   "El número pequeño de la fórmula indica cuántos átomos hay. Hidrógeno, dos. Azufre, uno, porque no lleva número. Oxígeno, cuatro.",
   "Masa de cada grupo: hidrógeno, dos por uno. Azufre, treinta y dos. Oxígeno, cuatro por dieciséis.",
   "Sumamos todo: dos por uno, más treinta y dos, más cuatro por dieciséis.",
-  "Si lo calculas, da noventa y ocho gramos por mol.",
+  "Si calculamos ese valor, obtenemos dos más treinta y dos más sesenta y cuatro, que es noventa y ocho gramos por mol.",
   "La respuesta es la D. El subíndice multiplica solo al elemento que tiene a su izquierda."
  ],
  "26": [
@@ -219,7 +219,7 @@
   "Pongamos a Santiago como el cero. Tokio está en más doce y Los Ángeles en menos cinco.",
   "Medida desde Tokio significa que ahora Tokio es la referencia. Calculamos Los Ángeles menos Tokio.",
   "Calculamos menos cinco menos doce, y eso nos da menos diecisiete horas de diferencia.",
-  "Los Ángeles va diecisiete horas atrás de Tokio. Con el ejemplo: de las veinte horas en Tokio a las tres de la mañana en Los Ángeles se retroceden diecisiete horas.",
+  "Los Ángeles va diecisiete horas atrás de Tokio. Con los datos del enunciado: de las veinte horas en Tokio a las tres de la mañana en Los Ángeles se retroceden diecisiete horas.",
   "La respuesta es la A. La diferencia medida desde un lugar es el otro lugar menos ese lugar."
  ],
  "27": [
@@ -227,9 +227,9 @@
   "Distancia es rapidez por tiempo. Hasta P: noventa por dos, ciento ochenta kilómetros al norte. Hasta Q: sesenta por tres y media, doscientos diez kilómetros al sur.",
   "Como están en sentidos opuestos, la distancia entre P y Q es la suma: trescientos noventa kilómetros.",
   "El camión va a noventa kilómetros por hora: trescientos noventa dividido en noventa. cuatro horas recorren trescientos sesenta, y sobran treinta kilómetros, que son un tercio de hora.",
-  "Un tercio de hora son veinte minutos.",
+  "Un tercio de hora equivale a sesenta minutos divididos en tres, es decir, veinte minutos.",
   "Entonces, el camión tarda en total cuatro horas y veinte minutos en llegar desde la ciudad P hasta la ciudad Q.",
-  "La respuesta es la C. Ojo: un tercio de hora no son treinta y tres minutos, son veinte. Las horas no son decimales normales."
+  "La respuesta es la C. Atención: un tercio de hora no son treinta y tres minutos, son veinte. Para pasar de horas a minutos se multiplica por sesenta."
  ],
  "28": [
   "Ejercicio veintiocho. Un contenedor con cajas, paquetes y bolsitas de té. Hay que calcular la masa total del té.",
@@ -248,9 +248,9 @@
  ],
  "30": [
   "Ejercicio treinta. En un torneo de ajedrez con ocho jugadores, todos juegan contra todos una vez. ¿Cuántas partidas hay?",
-  "Cada jugador juega contra los otros siete.",
-  "ocho por siete es cincuenta y seis. Pero así cada partida se cuenta dos veces: Ana contra Bruno es la misma partida que Bruno contra Ana.",
-  "Corregimos dividiendo en dos: veintiocho partidas.",
+  "Fijémonos en un jugador: juega una partida contra cada uno de los otros siete.",
+  "ocho por siete es cincuenta y seis. Pero así cada partida se cuenta dos veces: la partida entre el jugador uno y el jugador dos es la misma que entre el jugador dos y el jugador uno.",
+  "Corregimos el doble conteo dividiendo en dos: cincuenta y seis dividido en dos es veintiocho partidas.",
   "Otra forma: siete más seis más cinco más cuatro más tres más dos más uno, que también da veintiocho.",
   "La respuesta es la C. Para todos contra todos una vez: n por n menos uno, dividido en dos."
  ],
@@ -259,7 +259,7 @@
   "Buscamos el primer momento que sea múltiplo de los tres a la vez: el mínimo común múltiplo.",
   "Descomponemos: cuarenta es dos al cubo por cinco. sesenta es dos al cuadrado por tres por cinco. noventa es dos por tres al cuadrado por cinco.",
   "Tomamos cada factor con su mayor exponente: dos al cubo por tres al cuadrado por cinco. Es ocho por nueve por cinco, trescientos sesenta segundos.",
-  "trescientos sesenta segundos son seis minutos.",
+  "Como un minuto tiene sesenta segundos, trescientos sesenta segundos son seis minutos.",
   "Comprobamos: trescientos sesenta se divide exacto por cuarenta, por sesenta y por noventa.",
   "La respuesta es la B. Volver a coincidir es la señal del mínimo común múltiplo."
  ],
@@ -267,7 +267,7 @@
   "Ejercicio treinta y dos. Cada furgón lleva doce estudiantes. ¿Cuántos furgones se necesitan para ciento treinta?",
   "ciento treinta dividido en doce da diez, y sobran diez.",
   "Con diez furgones viajan ciento veinte estudiantes, y quedan diez sin transporte. Esos diez necesitan otro furgón.",
-  "Se necesitan once furgones.",
+  "Por lo tanto, se necesitan como mínimo once furgones para trasladar a todos.",
   "La respuesta es la A. Cuando el resto son personas que se quedan afuera, siempre necesitas uno más."
  ],
  "33": [
@@ -324,8 +324,8 @@
  "39": [
   "Ejercicio treinta y nueve. Un viñedo de ochenta hectáreas con tres sistemas de plantación. ¿Cuántas plantas hay que plantar en total?",
   "Asociamos cada superficie con su densidad. Espaldera: treinta y cinco hectáreas a cuatro mil plantas. Parrón: veinticinco hectáreas a mil seiscientos. Cabeza: veinte hectáreas a dos mil quinientos.",
-  "Multiplicamos: ciento cuarenta mil, cuarenta mil y cincuenta mil.",
-  "Sumamos: doscientos treinta mil plantas.",
+  "Multiplicamos superficie por densidad y obtenemos ciento cuarenta mil, cuarenta mil y cincuenta mil plantas.",
+  "Sumamos los tres resultados y obtenemos un total de doscientos treinta mil plantas.",
   "La respuesta es la B. Escribe la unidad al lado de cada número: así sabes que la operación tiene sentido."
  ],
  "40": [
@@ -333,7 +333,7 @@
   "Usamos solo la fila de Empresa: novecientos, mil trescientos, mil setecientos y dos mil cien pesos por kilo, según el tramo.",
   "Ubicamos cada distancia. doscientos kilómetros va en el tramo hasta doscientos, porque el doscientos está incluido: mil trescientos. quinientos veinte kilómetros, más de quinientos: dos mil cien. cincuenta kilómetros, el cincuenta está incluido en el primer tramo: novecientos. Y doscientos uno kilómetros: mil setecientos.",
   "Calculamos: quince por mil trescientos, diecinueve mil quinientos. ocho por dos mil cien, dieciséis mil ochocientos. veinticinco por novecientos, veintidós mil quinientos. diez por mil setecientos, diecisiete mil.",
-  "Sumamos: setenta y cinco mil ochocientos pesos.",
+  "Sumamos las cuatro encomiendas y la empresa debe pagar setenta y cinco mil ochocientos pesos.",
   "La respuesta es la D. Corchete mirando al número, incluido. Corchete dándole la espalda, excluido."
  ]
 }
