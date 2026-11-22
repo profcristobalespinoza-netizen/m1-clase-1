@@ -72,7 +72,7 @@
   "Huevos: la docena cuesta cuatro mil doscientos, entonces cada huevo cuesta trescientos cincuenta. Cuatro huevos, mil cuatrocientos.",
   "Mantequilla: doscientos cincuenta gramos cuestan dos mil ochocientos. cincuenta gramos son la quinta parte, quinientos sesenta pesos. Y doscientos gramos son cuatro veces cincuenta, o sea dos mil doscientos cuarenta.",
   "Azúcar: medio kilo, quinientos gramos, cuesta novecientos. cien gramos cuestan ciento ochenta, y trescientos gramos, quinientos cuarenta.",
-  "Limones: dos por doscientos cincuenta, quinientos pesos.",
+  "Y los limones: son dos, a doscientos cincuenta pesos cada uno, así que suman quinientos pesos.",
   "Sumamos todo: mil doscientos, más mil cuatrocientos, más dos mil doscientos cuarenta, más quinientos cuarenta, más quinientos. Total: cinco mil ochocientos ochenta pesos.",
   "La respuesta es la D. Busca un paquete pequeño, como cincuenta o cien gramos, que te permita trabajar solo con números enteros."
  ],
@@ -203,7 +203,7 @@
   "Primero transformamos: restar un número es sumar su opuesto. tres menos menos cinco es tres más cinco.",
   "El primer número indica dónde partimos: el tres.",
   "Sumar un positivo es avanzar hacia la derecha. Avanzamos cinco unidades.",
-  "Llegamos al ocho, que es el resultado.",
+  "Avanzamos cinco unidades desde el tres y llegamos al ocho, que es el resultado de la operación.",
   "La respuesta es la A. Piénsalo con temperatura: si quitas cinco grados de frío, la temperatura sube."
  ],
  "25": [
@@ -218,7 +218,7 @@
   "Ejercicio veintiséis. Diferencias horarias entre Santiago, Tokio y Los Ángeles. Hay que encontrar la diferencia entre Los Ángeles y Tokio, medida desde Tokio.",
   "Pongamos a Santiago como el cero. Tokio está en más doce y Los Ángeles en menos cinco.",
   "Medida desde Tokio significa que ahora Tokio es la referencia. Calculamos Los Ángeles menos Tokio.",
-  "Menos cinco menos doce, menos diecisiete.",
+  "Calculamos menos cinco menos doce, y eso nos da menos diecisiete horas de diferencia.",
   "Los Ángeles va diecisiete horas atrás de Tokio. Con el ejemplo: de las veinte horas en Tokio a las tres de la mañana en Los Ángeles se retroceden diecisiete horas.",
   "La respuesta es la A. La diferencia medida desde un lugar es el otro lugar menos ese lugar."
  ],
@@ -228,7 +228,7 @@
   "Como están en sentidos opuestos, la distancia entre P y Q es la suma: trescientos noventa kilómetros.",
   "El camión va a noventa kilómetros por hora: trescientos noventa dividido en noventa. cuatro horas recorren trescientos sesenta, y sobran treinta kilómetros, que son un tercio de hora.",
   "Un tercio de hora son veinte minutos.",
-  "Tarda cuatro horas y veinte minutos.",
+  "Entonces, el camión tarda en total cuatro horas y veinte minutos en llegar desde la ciudad P hasta la ciudad Q.",
   "La respuesta es la C. Ojo: un tercio de hora no son treinta y tres minutos, son veinte. Las horas no son decimales normales."
  ],
  "28": [
@@ -285,7 +285,7 @@
   "Nivel dos: veinte se descompone en cinco por cuatro, y dieciocho en seis por tres.",
   "Nivel uno: el cinco es primo y se repite. El cuatro es dos por dos. El seis es tres por dos. Y el tres es primo y se repite.",
   "De izquierda a derecha: cinco, dos, dos, tres, dos, tres.",
-  "Así queda el diagrama completo.",
+  "Y así queda el diagrama completo, con todos sus niveles llenos, de arriba hacia abajo y de izquierda a derecha.",
   "La respuesta es la A. Para encontrar los factores más cercanos, parte por la raíz cuadrada aproximada del número."
  ],
  "35": [
